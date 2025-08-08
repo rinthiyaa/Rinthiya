@@ -1,7 +1,10 @@
 #Problem-4
-a=int(input("Enter a number:"))
-if a%2==0:
-    a=a-1
-for i in range(a):
-    res=2*i+1
-    print(res,end=",")
+a=[1,2,8,9,12,46,76,82,15,20,30]
+result={}
+for i in range(1,10):
+    count=0
+    for j in a:
+        if j%i==0:
+            count=count+1
+    result[i]=count
+print(result)
