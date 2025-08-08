@@ -26,8 +26,3 @@
   Output: `{1: 11, 2: 8, 3: 4, 4: 4, 5: 3, 6: 2, 7: 0, 8: 1, 9: 1}`
 
 ---
-
-
-
-Each `.py` file is independent. Run them using any Python y
-
