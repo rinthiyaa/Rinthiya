@@ -1,4 +1,4 @@
-#Problem - 4
+#Problem-4
 a=int(input("Enter a number:"))
 if a%2==0:
     a=a-1
